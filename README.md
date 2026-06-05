@@ -92,6 +92,13 @@ npm run dev
 <p>Optional Gemini support is configured via <code>backend/.env</code>. If no key is present, the backend falls back to simulation mode.</p>
 <pre><code>GEMINI_API_KEY=your-gemini-api-key</code></pre>
 
+<h2>Media assets</h2>
+<p>The repository includes a <code>p/</code> folder with demo media:</p>
+<ul>
+  <li>1 video file: <code>p/2026-06-06 04-09-42.mp4</code></li>
+  <li>6 screenshot images: <code>p/Screenshot 2026-06-06 042923.png</code>, <code>p/Screenshot 2026-06-06 042943.png</code>, <code>p/Screenshot 2026-06-06 043010.png</code>, <code>p/Screenshot 2026-06-06 043028.png</code>, <code>p/Screenshot 2026-06-06 043054.png</code>, and <code>p/Screenshot 2026-06-06 043119.png</code></li>
+</ul>
+
 <h2>Notes</h2>
 <ul>
   <li>The app is built for demo use and uses mock M365 data instead of a live Microsoft Graph integration.</li>
