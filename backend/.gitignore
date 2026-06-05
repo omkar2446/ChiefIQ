@@ -1,0 +1,117 @@
+# ─────────────────────────────────────────────
+#  ChiefIQ Backend — .gitignore
+# ─────────────────────────────────────────────
+
+# === Environment & Secrets ===
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# === Python Virtual Environment ===
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# === Python Cache & Bytecode ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# === Distribution / Build ===
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+MANIFEST
+
+# === Testing ===
+.pytest_cache/
+.tox/
+.nox/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+nosetests.xml
+test-results/
+junit.xml
+
+# === Type Checking ===
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.pyre/
+
+# === Linting ===
+.ruff_cache/
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+*.ipynb
+
+# === Logs ===
+*.log
+logs/
+log/
+
+# === Database Files ===
+*.db
+*.sqlite
+*.sqlite3
+
+# === OS Files ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# === IDE & Editors ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# === FastAPI / Uvicorn ===
+*.pid
+
+# === LangChain / LangGraph Cache ===
+.langchain/
+langchain_cache/
+
+# === Azure / Cloud Configs ===
+.azure/
+*.tfstate
+*.tfstate.*
+.terraform/
+azuredeploy.parameters.json
+
+# === Temporary Files ===
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
